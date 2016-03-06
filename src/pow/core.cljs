@@ -11,7 +11,7 @@
 
 (defn say-test! [req res]
   (println req.ip req.headers)
-  (.send res (str "Hello testtestsdasdsasd!"req.ip)))
+  (.send res (str "Hello testtestsdasdsasdsasasda!"req.ip)))
 
 (defn -main []
   (let [app (express)]
